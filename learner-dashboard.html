@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learner Dashboard | LiveLearn</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/darkmode.css">
+</head>
+<body>
+
+  <div class="dashboard-layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <a href="browse.html">← Browse Sessions</a>
+      <nav>
+        <a href="#bookings">My Bookings</a>
+        <a href="#profile">Profile</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="dashboard-content">
+      <h2>Welcome, <span id="learnerName">Learner</span>!</h2>
+
+      <!-- Stats -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <h4>Total Sessions Booked</h4>
+          <p id="totalBookings">0</p>
+        </div>
+        <div class="stat-card">
+          <h4>Total Spent</h4>
+          <p id="totalSpent">₹0</p>
+        </div>
+      </div>
+
+      <!-- Booked Sessions -->
+      <section class="booked-sessions">
+        <h3>My Booked Sessions</h3>
+        <div id="bookedSessionsContainer" class="card-grid">
+          <!-- JS will render booked session cards here -->
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- JS -->
+  <script type="module" src="js/pages/learnerDashboard.js"></script>
+</body>
+</html>

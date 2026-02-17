@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Host Dashboard | LiveLearn</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/darkmode.css">
+</head>
+<body>
+
+  <!-- Navbar & Sidebar placeholders -->
+  <div id="navbar"></div>
+  <div id="sidebar"></div>
+
+  <!-- Dashboard Content -->
+  <div id="app" class="dashboard-content">
+    <h2>Welcome, Host!</h2>
+
+    <!-- Stats Cards -->
+    <div class="stats-grid" id="hostStats">
+      <div class="stat-card" id="totalSessions">Total Sessions</div>
+      <div class="stat-card" id="totalStudents">Total Students</div>
+      <div class="stat-card" id="totalEarnings">Total Earnings</div>
+      <div class="stat-card" id="upcomingSessions">Upcoming Sessions</div>
+    </div>
+
+    <!-- Quick Actions -->
+    <div class="hero-actions">
+      <a href="create-session.html" class="btn-primary">Create New Session</a>
+      <a href="manage-sessions.html" class="btn-secondary">Manage Sessions</a>
+      <a href="earnings.html" class="btn-secondary">View Earnings</a>
+    </div>
+
+    <!-- Recent Bookings Table -->
+    <h3>Recent Bookings</h3>
+    <table class="table" id="recentBookings">
+      <thead>
+        <tr>
+          <th>Session</th>
+          <th>Student</th>
+          <th>Date</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- JS will populate bookings -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 LiveLearn. All rights reserved.</p>
+  </footer>
+
+  <!-- JS -->
+  <script type="module" src="js/pages/hostDashboard.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | LiveLearn</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/pages.css" />
+  <link rel="stylesheet" href="css/darkmode.css" />
+</head>
+<body>
+
+  <div class="auth-container">
+    <div class="auth-card">
+      <h2>Login</h2>
+
+      <form id="loginForm">
+        <label>Email</label>
+        <input type="email" name="email" placeholder="you@example.com" required />
+
+        <label>Password</label>
+        <input type="password" name="password" placeholder="********" required />
+
+        <button type="submit" class="btn-primary full-width">Login</button>
+      </form>
+
+      <div class="role-login">
+        <p>Quick Login:</p>
+        <button id="loginLearner" class="btn-secondary">Login as Learner</button>
+        <button id="loginHost" class="btn-secondary">Login as Host</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script type="module" src="js/pages/auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Session | LiveLearn</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/darkmode.css">
+</head>
+<body>
+
+  <!-- Navbar & Sidebar placeholders -->
+  <div id="navbar"></div>
+  <div id="sidebar"></div>
+
+  <!-- Dashboard content -->
+  <div id="app" class="dashboard-content">
+    <h2>Create New Session</h2>
+
+    <form id="createSessionForm">
+      <label>Title</label>
+      <input type="text" name="title" required>
+
+      <label>Description</label>
+      <textarea name="description" required></textarea>
+
+      <label>Category</label>
+      <input type="text" name="category" required>
+
+      <label>Price (₹)</label>
+      <input type="number" name="price" required>
+
+      <label>Duration (minutes)</label>
+      <input type="number" name="duration" required>
+
+      <button type="submit" class="btn-primary">Create Session</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 LiveLearn. All rights reserved.</p>
+  </footer>
+
+  <!-- JS -->
+  <script type="module" src="js/pages/createSession.js"></script>
+</body>
+</html>
