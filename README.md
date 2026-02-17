@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎓 ReadyToLearn - Live Sessions Marketplace MVP
 
 A frontend-only SaaS-style live sessions booking platform.
@@ -45,3 +46,7 @@ styles/
 ---
 
 Built as a portfolio-ready SaaS MVP.
+=======
+# LiveLearn
+Live Sessions Marketplace is a frontend web app built with HTML, CSS, and JavaScript that allows users to browse, book, and manage live sessions. It features role-based dashboards, dynamic DOM rendering, booking flow simulation, responsive design, and structured application logic.
+>>>>>>> 0cef0c9f1faf846ba58beaee4413b94a063ef420
